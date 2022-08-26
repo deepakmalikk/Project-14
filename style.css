@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .conatiner{
+    width: 100vw;
+    height: auto;
+  display: flex;
+  
+  }
+
+  .nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .logo{
+    width: 500px;
+   padding: 65px;
+    height: 100vh;
+    background-image: url(./images/pexels-rfstudio-3819572.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .black-logo{
+    height: 32px;
+    
+  }
+.nav-horizontal-line{
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+
+}
+ hr{
+    width: 300px;
+    margin-right: 20px;
+ }
+ .list{
+    margin-top: 60px;
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    margin-left: 25px;
+ }
+ .list-item{
+    color: #686767;
+    font-size: 17px;
+    font-weight: 600;
+ }
+
+ .head-section{
+    width: 100%;
+  
+ }
+
