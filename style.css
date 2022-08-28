@@ -8,8 +8,8 @@
   .conatiner{
     width: 100vw;
     height: auto;
-  display: flex;
-  
+   display: grid;
+   
   }
 
   .nav{
@@ -51,9 +51,92 @@
     font-size: 17px;
     font-weight: 600;
  }
-
- .head-section{
-    width: 100%;
+.hero-section{
+  width: 100vw;
+ 
   
- }
 
+  left: 520px;
+  position: absolute;
+  top:150px
+}
+.heading-flex{
+  display: flex;
+  flex-direction: row;
+}
+.primary-text{
+  font-family: 'Merriweather',serif;
+  
+  font-weight: 700;
+  font-size: 100px;
+ 
+  
+}
+.main-heading-gray{
+  -webkit-text-stroke: 1px #767575;
+  color: transparent;
+}
+.main-heading-black{
+  margin-left: 100px;
+}
+.secondary-text{
+  margin-top: 158px;
+  margin-left: 25px;
+  font-size: 30px;
+  color: #767575;
+  font-weight: 500;
+}
+.btn{
+  margin-top: 30px;
+  margin-left: 50px;
+  
+}
+.check-btn{
+  background-color: #333333;
+  border: 1px solid #333333;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+.social{
+  display: flex;
+  flex-direction: column;
+  
+}
+.twitter,
+.instagram,
+.facebook,
+.email{
+  margin-bottom: 35px;
+}
+
+.bottom-section{
+  width: 100%;
+}
+
+.circle-active{
+  width: 15px;
+  height: 15px;
+ margin-top: 5px;
+  background-color: #1f1f1f;
+  border: 1px solid #1f1f1f;
+  border-radius: 20px;
+}
+.line-active{
+  height: 30px;
+  width: 1px;
+  background-color: #1f1f1f;
+}
+.cricle{
+  width: 15px;
+  height: 15px;
+ margin-top: 5px;
+  background-color: #A6A5A5;
+  border: 1px solid #A6A5A5;
+  border-radius: 20px;
+}
+.line{
+  height: 30px;
+  width: 1px;
+  background-color: #A6A5A5;
+}
