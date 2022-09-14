@@ -17,7 +17,7 @@
   - Learned how to make Dance Home landing page.
   - Learned how to give background image. 
   - Learned about layouts using grid and flex.
-- Learned to use text-stroke-width to create outline text effect.
+  - Learned to use text-stroke-width to create outline text effect.
   - How to use different Google Fonts in webpage.
   - Learned how to make responsive web-design.
   
