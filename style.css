@@ -56,6 +56,7 @@ hr {
   display: flex;
   gap: 60px;
   margin-left: 25px;
+  flex-wrap: wrap;
 }
 
 .list-item {
@@ -66,9 +67,6 @@ hr {
 
 .hero-section {
   width: 100vw;
-
-
-
   left: 520px;
   position: absolute;
   top: 100px
@@ -240,4 +238,101 @@ hr {
 .arrow {
   margin-left: 50px;
 
+}
+
+/* making responsive  */
+
+@media screen and (max-width:780px) {
+
+  .conatiner {
+    width: 780px;
+
+  }
+
+  body {
+    overflow: visible;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .logo {
+
+    background-image: none;
+    width: 25%;
+  }
+
+  .nav-horizontal-line {
+    visibility: collapse;
+    position: absolute
+  }
+
+  .list {
+    margin-left: 0px;
+    gap: 10px;
+  }
+
+  .hero-section {
+    margin-top: 50px;
+    width: 780px;
+    left: 0px;
+    
+  }
+  .heading-flex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  .main-heading-black{
+    margin-left: 50px;
+  }
+ .secondary-text{
+  margin-top: 0px;
+ 
+ }
+ .secondary-text-top{
+  position: absolute;
+  left: 280px;
+  font-size: 25px;
+ }
+ .secondary-text-bottom{
+  position: absolute;
+  left: 350px;
+  font-size: 25px;;
+ }
+.btn{
+  margin-left: 0px;
+  margin-top: 50px;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 50px;
+}
+.bottom-section{
+  width: 600px;
+  
+}
+.circle-line-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+
+}
+.bottom-left{
+  visibility: collapse;
+  position: absolute;
+}
+.bottom-section-right{
+  width: 100%;
+  margin-left: 0px;;
+}
+.arrow{
+  visibility: collapse;
+  
+}
 }
